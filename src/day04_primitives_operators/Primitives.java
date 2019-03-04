@@ -28,6 +28,7 @@ public class Primitives {
 	    System.out.println("char " + charValue2);
 	    System.out.println("boolean " + booleanValue);
 	    System.out.println("boolean " + booleanValue2);
+	    //Test
 	
 	
 	
