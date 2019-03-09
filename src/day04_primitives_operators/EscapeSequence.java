@@ -7,6 +7,7 @@ public class EscapeSequence {
 		
 		// Print this: Would you like 'coffee' or 'tea'?
 		 System.out.println("Would you like \'coffee\' or \'tea\'?");
+		 //Print "\__/"
 		 System.out.println("\"\\__/\"");
 		 
 		 // Print this: Java 

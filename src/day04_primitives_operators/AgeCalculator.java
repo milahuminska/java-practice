@@ -20,7 +20,7 @@ public class AgeCalculator {
 		//Then you are <>years old
 		 
 				System.out.println("if you are born in " + yearOfBirth );
-				System.out.println("Then you are "+age+ " years old");
+				System.out.println("Then you are "+age+ "");
 		
 		
 	}

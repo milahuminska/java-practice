@@ -24,8 +24,8 @@ public class Primitives {
 	    System.out.println("short: " + shortValue);
 	    System.out.println("int: " + intValue);
 	    System.out.println("float: " + floatValue);
-	    System.out.println("char "+ charValue);
-	    System.out.println("char " + charValue2);
+	    System.out.println("char: "+ charValue);
+	    System.out.println("char: " + charValue2);
 	    System.out.println("boolean " + booleanValue);
 	    System.out.println("boolean " + booleanValue2);
 	    //Test

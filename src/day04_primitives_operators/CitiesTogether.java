@@ -16,7 +16,7 @@ public class CitiesTogether {
 		// We use <Slsack> for messaging Classmates
 		System.out.println("We use "+ app+" for messaging Classmates" );
 		
-	     app = "Slack and Slack";
+	     app = "Slack and Whatsup";
 		
 		System.out.println("We use "+ app+" for messaging Classmates" );
 	

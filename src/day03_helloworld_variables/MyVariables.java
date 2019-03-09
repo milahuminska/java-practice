@@ -16,10 +16,7 @@ public class MyVariables {
 		System.out.println(a);
 		a = 1000;
 		System.out.println(a);
-		
-		 
-		
-		
+			
 		
 	}
 
