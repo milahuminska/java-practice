@@ -1,4 +1,4 @@
-package day06_operators2;
+package home_practice;
 
 import java.util.Scanner;
 
@@ -15,6 +15,8 @@ public class ScannerYourName {
 		System.out.println("Nice to meet you, " +name);
 		//System.out.printlnLine("Nice to meet you, " +name);will take whole name
 		
+
+
 		
 		
 	

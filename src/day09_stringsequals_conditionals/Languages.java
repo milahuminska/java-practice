@@ -2,13 +2,15 @@ package day09_stringsequals_conditionals;
 
 public class Languages {
 public static void main(String[] args) {
-	int option = 1;
+	int option = 6;
 	// 1 - English
 	// 2 - Spanish
 	// 3 - French
 	// 4 - Turkish
 	// 5 - Russian
 	// 6 - Greek
+	
+	
 	
 	if (option == 1) {
 		System.out.println("Hello!");
@@ -23,25 +25,44 @@ public static void main(String[] args) {
 	} else if (option == 6) {
 		System.out.println("Yiasou!");
 	}
+	
+//	if (option == 1) {
+//		System.out.println("Hello!");
+//	} 
+//	if (option == 2) {
+//		System.out.println("Hola!");
+//	} 
+//	if (option == 3) {
+//		System.out.println("Bonjour!");
+//	}
+//	if (option == 4) {
+//		System.out.println("Merhaba!");
+//	} 
+//	if (option == 5) {
+//		System.out.println("Privet");
+//	} 
+//	if (option == 6) {
+//		System.out.println("Yiasou!");
+//	}
 		
-	/*
-	if(option == 1) {
-		System.out.println("Hello!");
-	}
 	
-	if(option == 2) {
-		System.out.println("Hola!");
-	}
-	
-	if(option == 3) {
-		System.out.println("Bonjour!");
-	}
-	
-	if(option == 4) {
-		System.out.println("Merhaba!");
-	}
+//	if(option == 1) {
+//		System.out.println("Hello!");
+//	}
+//	
+//	if(option == 2) {
+//		System.out.println("Hola!");
+//	}
+//	
+//	if(option == 3) {
+//		System.out.println("Bonjour!");
+//	}
+//	
+//	if(option == 4) {
+//		System.out.println("Merhaba!");
+//	}
 		
-	*/
+	
 	
 	
 	
