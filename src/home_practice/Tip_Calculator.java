@@ -12,6 +12,7 @@ public class Tip_Calculator {
 		System.out.println("Split:");
 		String split = scan.next();
 		
+		
 		System.out.println("Number of people:");
 		int numberOfPeople = scan.nextInt();
 		
@@ -74,6 +75,10 @@ public class Tip_Calculator {
 		}
 		//calculating total pay
 		totalPay = totalTip + checkAmount;
+	// double totalPerPerson = totalPay / numberOfPeople;
+	// double tipPerPerson = totalTip / numberOfPeople;
+		
+		
 		
 		System.out.println("Number of people entered: " + numberOfPeopleString);
 		System.out.println("Total to pay: " + totalPay);

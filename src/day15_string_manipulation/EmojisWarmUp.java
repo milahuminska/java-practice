@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class EmojisWarmUp {
 	public static void main(String[] args) {
-		String emoji = ";)";
+		String emoji = "(:";
 		Scanner scan = new Scanner(System.in);
 		// ==, != Check if it not 2 chars
 		if (emoji.length() != 2) {
@@ -25,23 +25,23 @@ public class EmojisWarmUp {
 				System.out.println("upset");
 			} else if (second == 'p') {
 				System.out.println("playful");
-			}else {
+			} else {
 				System.out.println("Unknown emoji");
 			}
 
 		} else if (first == ';') {
-			if(second == ')') {
+			if (second == ')') {
 				System.out.println("woink");
-			}else if (second == '0') {
+			} else if (second == '0') {
 				System.out.println("surprised");
-			}else {
+			} else {
 				System.out.println("Unknown emoji");
 			}
-			
+
 		} else if (first == '(') {
 			if (second == ':') {
 				System.out.println("smile");
-			}else {
+			} else {
 				System.out.println("sad");
 			}
 		} else if (first == ')') {

@@ -21,7 +21,13 @@ public class GoogleSearchTest {
 		}
 		
 		
+		String word = "Mentoring Session with Mert Hiraoglu on Java String Manipulation";
 		
+		if(word.startsWith("mentoring")) {
+			System.out.println("true");
+		}else {
+			System.out.println("false");
+		}
 		
 		
 	}

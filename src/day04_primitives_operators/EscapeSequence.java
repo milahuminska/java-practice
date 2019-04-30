@@ -15,9 +15,14 @@ public class EscapeSequence {
 		 System.out.println("Java\nSelenium");
 		 System.out.println("Java\\nSelenium");
 		 
-	
+//	    \\""//
+		 System.out.println("\\\\\"\"//");
 		
-		
+//		/\^_^/\
+		 System.out.println("/\\^_^/\\");
+//		 \\\*_*///
+//		  \\|||//
+		 System.out.println("\\\\\\*_*///\n \\\\|||//");
 		
 		
 		

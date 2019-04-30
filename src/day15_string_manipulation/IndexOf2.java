@@ -8,7 +8,7 @@ public class IndexOf2 {
 		int firstDash = list.indexOf("-");
 		System.out.println("First dash:" + firstDash);// 4
 
-		int secondDash = list.indexOf("-", 5);
+		int secondDash = list.indexOf("-", firstDash+1);
 		System.out.println("Second dash:" + secondDash);// 13
 		
 		// find the third one by using secondDash variable

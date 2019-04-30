@@ -4,6 +4,12 @@ public class IndexOf {
 	public static void main(String[] args) {
 					  //012345 
 		String word1 = "github";
+//		g = 0
+//		i = 1
+//		t = 2
+//		h = 3
+//		u = 4
+//		b = 5
 		System.out.println(word1.indexOf("g"));//0
 		System.out.println(word1.indexOf("th"));//2
 		System.out.println(word1.indexOf("hub"));//3

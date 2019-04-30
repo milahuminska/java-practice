@@ -14,7 +14,86 @@ public class Real_Estate_Calculator {
 		System.out.println("* Welcome to the RealEstate calculator! *");
 		System.out.println("*****************************************");
 
-// house type
+//// house type
+//		System.out.println("Enter your property type:");
+//		houseType = scan.nextLine();
+//		if (houseType.equals("Condo")) {
+//			propertyPrice = propertyPrice + 50000;
+//		} else if (houseType.equals("Townhouse")) {
+//			propertyPrice = propertyPrice + 75000;
+//		} else if (houseType.equals("Single Family Home")) {
+//			propertyPrice = propertyPrice + 95000;
+//		}
+//		
+//// amount of bedrooms
+//		System.out.println("How many bedrooms do you have?");
+//		numberOfBedrooms = scan.nextInt();
+//		propertyPrice = propertyPrice + (numberOfBedrooms * 30000);
+//		
+//// backyard
+//		System.out.println("Do you have a backyard?");
+//		backyard = scan.nextBoolean();
+//		if (!houseType.equals("Condo")) {
+//  		  if (backyard == true) {
+//  				propertyPrice = propertyPrice + 5000;
+//  			} 
+//		} else{
+//			  System.out.println("Backyard is not available for condo!");
+//	 	}
+//
+//// garage
+//		System.out.println("Do you have garage?");
+//		garage = scan.nextBoolean();
+//		if (garage == true) {
+//			System.out.println("How many spots?");
+//			garageSpots = scan.nextInt();
+//			if (garageSpots <= 10){
+//				propertyPrice = propertyPrice + (garageSpots * 20000);
+//		} else {
+//			System.out.println("Pardon, it's not a public parking!");
+//		}
+//		}
+//		
+//// metro station
+//		System.out.println("How close is metro station?");
+//		metroAccessibility = scan.nextFloat();
+//		if (metroAccessibility <= 1) {
+//			propertyPrice = propertyPrice + 10000;
+//		} else if ((metroAccessibility > 1) && (metroAccessibility <= 3)) {
+//			propertyPrice = propertyPrice + 5000;
+//		}
+//		
+//// highway
+//		System.out.println("How close is highway?");
+//		highwayAccessibility = scan.nextFloat();
+//		if (highwayAccessibility <= 1) {
+//			propertyPrice = propertyPrice + 15000;
+//		} else if ((highwayAccessibility > 1) && (highwayAccessibility <= 5)) {
+//			propertyPrice = propertyPrice + 8000;
+//		} else if ((highwayAccessibility > 5) && (highwayAccessibility <= 20)) {
+//			propertyPrice = propertyPrice + 4000;
+//		}
+//
+//// school rate
+//		System.out.println("What's the rating of nearest school?");
+//		schoolScore = scan.nextFloat();
+//		if ((schoolScore <= 10) && (schoolScore >= 8)) {
+//			propertyPrice = propertyPrice + 45000;
+//		} else if ((schoolScore < 8) && (schoolScore >= 4)) {
+//			propertyPrice = propertyPrice + 20000;
+//		} else {
+//			propertyPrice = propertyPrice + 5000;
+//		}
+//
+//// smoking
+//		System.out.println("Does any of your family members smoking?");
+//		smoking = scan.nextBoolean();
+//		if (smoking == true) {
+//			propertyPrice = propertyPrice - 5000;
+//		}
+//
+//		System.out.println("Market report has been generated.");
+//		System.out.println("Your estimate market price is: " + propertyPrice + "$");
 		System.out.println("Enter your property type:");
 		houseType = scan.nextLine();
 		if (houseType.equals("Condo")) {
@@ -24,13 +103,9 @@ public class Real_Estate_Calculator {
 		} else if (houseType.equals("Single Family Home")) {
 			propertyPrice = propertyPrice + 95000;
 		}
-		
-// amount of bedrooms
 		System.out.println("How many bedrooms do you have?");
 		numberOfBedrooms = scan.nextInt();
 		propertyPrice = propertyPrice + (numberOfBedrooms * 30000);
-		
-// backyard
 		System.out.println("Do you have a backyard?");
 		backyard = scan.nextBoolean();
 		if (!houseType.equals("Condo")) {
@@ -41,7 +116,6 @@ public class Real_Estate_Calculator {
 			  System.out.println("Backyard is not available for condo!");
 	 	}
 
-// garage
 		System.out.println("Do you have garage?");
 		garage = scan.nextBoolean();
 		if (garage == true) {
@@ -53,8 +127,7 @@ public class Real_Estate_Calculator {
 			System.out.println("Pardon, it's not a public parking!");
 		}
 		}
-		
-// metro station
+
 		System.out.println("How close is metro station?");
 		metroAccessibility = scan.nextFloat();
 		if (metroAccessibility <= 1) {
@@ -62,8 +135,7 @@ public class Real_Estate_Calculator {
 		} else if ((metroAccessibility > 1) && (metroAccessibility <= 3)) {
 			propertyPrice = propertyPrice + 5000;
 		}
-		
-// highway
+
 		System.out.println("How close is highway?");
 		highwayAccessibility = scan.nextFloat();
 		if (highwayAccessibility <= 1) {
@@ -74,7 +146,7 @@ public class Real_Estate_Calculator {
 			propertyPrice = propertyPrice + 4000;
 		}
 
-// school rate
+		// school rate
 		System.out.println("What's the rating of nearest school?");
 		schoolScore = scan.nextFloat();
 		if ((schoolScore <= 10) && (schoolScore >= 8)) {
@@ -85,7 +157,7 @@ public class Real_Estate_Calculator {
 			propertyPrice = propertyPrice + 5000;
 		}
 
-// smoking
+		// smoking
 		System.out.println("Does any of your family members smoking?");
 		smoking = scan.nextBoolean();
 		if (smoking == true) {
@@ -94,7 +166,6 @@ public class Real_Estate_Calculator {
 
 		System.out.println("Market report has been generated.");
 		System.out.println("Your estimate market price is: " + propertyPrice + "$");
-
 	}
 
 }

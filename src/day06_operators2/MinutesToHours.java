@@ -3,7 +3,7 @@ package day06_operators2;
 public class MinutesToHours {
 public static void main(String[] args) {
 	
-	int minutes = 120;
+	int minutes = 180;
 	int hours = minutes / 60;
 	int remainigMinutes = minutes % 60;
 	
