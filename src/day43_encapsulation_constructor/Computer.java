@@ -13,14 +13,13 @@ public class Computer {
 		os = "unknown";
 		
 	}
+	
 	public Computer(String brand, String os, double price) {
 		System.out.println("In 3 args constructor...");
 		this.brand = brand;
 		this.os = os;
 		this.price = price;
 	}
-
-	
 	
 	
 	
@@ -51,4 +50,6 @@ public class Computer {
 	public double getPrice() {
 		return price;
 	}
+	
+	
 }

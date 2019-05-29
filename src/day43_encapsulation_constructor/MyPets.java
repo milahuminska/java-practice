@@ -3,6 +3,7 @@ package day43_encapsulation_constructor;
 public class MyPets {
 	public static void main(String[] args) {
 		Pet pet1 = new Pet("Dog", "Poohchi");
+		System.out.println();
 		Pet pet2 = new Pet("Cat", "Booblik");
 		Pet pet3 = new Pet("Cat", "Pushok");
 		Pet pet4 = new Pet("Fish", "Purple");

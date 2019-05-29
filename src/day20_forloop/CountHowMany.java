@@ -6,7 +6,7 @@ public class CountHowMany {
 		// char to count the number of occurrences
 
 		String word = "computer programming";
-		char myChar = 'm';
+		char myChar = 'p';
 
 		int counter = 0;
 
@@ -17,6 +17,10 @@ public class CountHowMany {
 		}
 
 		System.out.println("Count: " + counter);
+		
+		
+		
+		
 
 	}
 
